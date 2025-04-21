@@ -1,0 +1,21 @@
+
+
+### **MG 42 - Resumo do Manual**
+
+- **Calibre:** 7,92 mm
+- **Cadência de tiro:** 1.200 a 1.500 tiros/min
+- **Alimentação:** Fita de 50 a 250 cartuchos
+- **Peso (com tripé):** 11,6 kg
+- **Modo de disparo:** Automático (sem opção de semi-automático)
+- **Cano:** Troca rápida devido ao superaquecimento
+- **Manutenção:** Limpeza regular e lubrificação; troca de cano após ~250 tiros.
+
+### **Funcionamento**
+1. **Carregamento:** Coloca-se a fita de munição na lateral.
+2. **Disparo:** Mantém-se pressionado o gatilho para disparos contínuos.
+3. **Troca de Cano:** Feita com luvas para evitar queimaduras.
+   
+### **Operação em Equipe:**
+- Atirador
+- Ajudante de munição
+- Municiador
