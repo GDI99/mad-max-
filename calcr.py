@@ -1,16 +1,15 @@
 def calcular(num1, num2, operacao):
     if operacao == "+":
         return num1 + num2
-    elif operacao == "-":
+    if operacao == "-":
         return num1 - num2
-    elif operacao == "*":
+    if operacao == "*":
         return num1 * num2
-    elif operacao == "/":
+    if operacao == "/":
         if num2 == 0:
             return "Erro: divisão por zero!"
         return num1 / num2
-    else:
-        return "Operação inválida."
+    return "Operação inválida."
 
 def main():
     print("=== Calculadora Simples ===")
