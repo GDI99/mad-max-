@@ -1,4 +1,7 @@
+"""Módulo com uma calculadora simples."""
+
 def calcular(num1, num2, operacao):
+    """Realiza a operação matemática informada entre dois números."""
     if operacao == "+":
         return num1 + num2
     if operacao == "-":
@@ -12,6 +15,7 @@ def calcular(num1, num2, operacao):
     return "Operação inválida."
 
 def main():
+    """Função principal que executa a calculadora."""
     print("=== Calculadora Simples ===")
     try:
         num1 = float(input("Digite o primeiro número: "))
@@ -24,3 +28,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
