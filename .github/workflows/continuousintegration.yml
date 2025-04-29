@@ -50,7 +50,7 @@ jobs:
   notify:
     name: Notify Discord
     runs-on: ubuntu-latest
-    if: failure()  # Este job só será executado se houver falha em outro job
+    if: always()
 
     steps:
       - name: Send Discord notification
