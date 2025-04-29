@@ -46,3 +46,15 @@ jobs:
 
       - name: Push Docker image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/calculadora:latest
+
+  notify:
+    name: Notify Discord
+    runs-on: ubuntu-latest
+    if: failure()  # Este job só será executado se houver falha em outro job
+
+    steps:
+      - name: Send Discord notification
+        run: |
+          curl -X POST -H "Content-Type: application/json" \
+          -d '{"content": "O workflow falhou! :x: Erro no build!"}' \
+          ${{ secrets.DISCORD_WEBHOOK_URL }}
